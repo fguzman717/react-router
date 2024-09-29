@@ -1,0 +1,102 @@
+* {
+  font-family: arial, sans-serif;
+  margin: 0;
+}
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#container > div {
+  display: flex;
+}
+#navbar {
+  padding: 2em;
+  justify-content: space-evenly;
+  background-color: rgb(50, 50, 50);
+  border: 1px solid gray;
+}
+#main-section {
+  flex-grow: 1;
+}
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.red {
+  border: 2px solid red;
+  background-color: #b05f6d;
+  color: white;
+}
+.blue {
+  border: 2px solid blue;
+  background-color: #275db3;
+  color: white;
+}
+.home {
+  border: 2px solid darkmagenta;
+  background-color: rgb(150, 11, 150);
+  color: white;
+}
+.green {
+  border: 2px solid green;
+  background-color: rgb(30, 190, 30);
+  color: white;
+}
+.orange {
+  border: 2px solid orange;
+  background-color: rgb(212, 173, 101);
+  color: white;
+}
+.cyan {
+  border: 2px solid cyan;
+  background-color: rgb(94, 223, 223);
+  color: white;
+}
+#footer {
+  padding: 2em;
+  justify-content: space-evenly;
+  background-color: rgb(50, 50, 50);
+  border: 1px solid gray;
+}
+a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100px;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.home-hover:hover {
+  background-color: rgb(150, 11, 150);
+  color: white;
+}
+.blue-hover:hover {
+  background-color: #275db3;
+  color: white;
+}
+.red-hover:hover {
+  background-color: #b05f6d;
+  color: white;
+}
+.green-hover:hover {
+  background-color: rgb(30, 190, 30);
+  color: white;
+}
+.orange-hover:hover {
+  background-color: rgb(212, 173, 101);
+  color: white;
+}
+.cyan-hover:hover {
+  background-color: rgb(94, 223, 223);
+  color: white;
+}
